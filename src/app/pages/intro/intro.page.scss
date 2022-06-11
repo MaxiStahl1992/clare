@@ -1,9 +1,256 @@
+
+@media all and (min-width: 190px) and (max-width: 330px)
+{ 
+
 ion-content {
     --background: #0081ca;
+    font-family: 'Bubblegum Sans', cursive;
+    color:#d5e0eb;
+    font-size: 22pt;
+    margin-left: 40%;
+    margin-top:30%;
 }
 
 ion-slides {
-    height: 100%;
+    height: 85%;
     --bullet-background-active: #ffffff;
     --bullet-background: #000;
+}
+
+
+img{
+    width: 63%;
+    margin-top:7%;
+}
+
+#text1-intro-page1{
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:12%;
+    padding-right:12%;
+    line-height: 17pt;
+    letter-spacing: 2pt;
+}
+
+#text1-intro-page2{
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:12%;
+    padding-right:12%;
+    line-height: 17pt;
+    letter-spacing: 2pt;
+}
+
+#text1-intro-page3{
+    margin-top:5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:12%;
+    padding-right:12%;
+    line-height: 17pt;
+    letter-spacing: 2pt;
+}
+
+p {
+    margin-top:5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, light;
+    font-size:7pt;
+}
+
+#logo-name-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-name{
+    font-family: 'Bubblegum Sans', cursive;
+    color:#d5e0eb;
+    font-size: 36pt;
+    letter-spacing: 2pt;
+    padding-left:32%;
+    position: fixed;
+}
+
+}
+
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+
+@media all and (min-width: 330px) and (max-width: 500px)
+{ 
+
+ion-content {
+    --background: #0081ca;
+    font-family: 'Bubblegum Sans', cursive;
+    color:#d5e0eb;
+    font-size: 20pt;
+    margin-left: 40%;
+    margin-top:25%;
+}
+
+ion-slides {
+    height: 85%;
+    --bullet-background-active: #ffffff;
+    --bullet-background: #000;
+}
+
+
+img{
+    width: 55%;
+    margin-top:7%;
+}
+
+#text1-intro-page1{
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:12%;
+    padding-right:12%;
+    line-height: 17pt;
+    letter-spacing: 2pt;
+    font-size: 15pt;
+}
+
+#text1-intro-page2{
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:12%;
+    padding-right:12%;
+    line-height: 17pt;
+    letter-spacing: 2pt;
+    font-size: 15pt;
+}
+
+#text1-intro-page3{
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:12%;
+    padding-right:12%;
+    line-height: 17pt;
+    letter-spacing: 2pt;
+    font-size: 15pt;
+}
+
+p {
+    margin-top:5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, light;
+    font-size:7pt;
+}
+
+#logo-name-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-name{
+    font-family: 'Bubblegum Sans', cursive;
+    color:#d5e0eb;
+    font-size: 36pt;
+    letter-spacing: 2pt;
+    padding-left:38%;
+    position: fixed;
+}
+
+}
+
+
+/* media */
+/* media */
+/* media */
+/* media */
+/* media */
+
+@media all and (min-width: 500px) and (max-width: 800px)
+{ 
+
+ion-content {
+    --background: #0081ca;
+    font-family: 'Bubblegum Sans', cursive;
+    color:#d5e0eb;
+    font-size: 20pt;
+    margin-left: 40%;
+    margin-top:5%;
+}
+
+ion-slides {
+    height: 85%;
+    --bullet-background-active: #ffffff;
+    --bullet-background: #000;
+}
+
+
+img{
+    width: 55%;
+    margin-top:-13%;
+}
+
+#text1-intro-page1{
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:22%;
+    padding-right:22%;
+    line-height: 22pt;
+    letter-spacing: 2pt;
+    font-size: 15pt;
+}
+
+#text1-intro-page2{
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:22%;
+    padding-right:22%;
+    line-height: 22pt;
+    letter-spacing: 2pt;
+    font-size: 15pt;
+}
+
+#text1-intro-page3{
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:22%;
+    padding-right:22%;
+    line-height: 22pt;
+    letter-spacing: 2pt;
+    font-size: 15pt;
+}
+
+p {
+    margin-top:5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, light;
+    font-size:11pt;
+}
+
+#logo-name-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-name{
+    font-family: 'Bubblegum Sans', cursive;
+    color:#d5e0eb;
+    font-size: 36pt;
+    letter-spacing: 2pt;
+    padding-left:42%;
+    position: fixed;
+}
+
 }
