@@ -8,24 +8,32 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+        path: 'home',
+        loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'feedback',
+        loadChildren: () => import('./feedback/feedback.module').then(m => m.FeedbackPageModule)
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'calendar',
+        loadChildren: () => import('./calendar/calendar.module').then(m => m.CalendarPageModule)
+      },
+      {
+        path: 'games',
+        loadChildren: () => import('./games/games.module').then(m => m.GamesPageModule)
+      },
+      {
+        path: 'call',
+        loadChildren: () => import('./call/call.module').then( m => m.CallPageModule)
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/feedback',
         pathMatch: 'full'
       }
     ]
-  }
+  },
 ];
 
 @NgModule({
