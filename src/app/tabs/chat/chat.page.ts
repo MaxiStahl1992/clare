@@ -17,4 +17,12 @@ export class ChatPage implements OnInit {
     this.route.navigate(['/tabs/call']);
   }
 
+  navigateToVideocall(){
+    this.route.navigate(['/tabs/videocall']);
+  }
+
+  navigateToPhoneCall(){
+    this.route.navigate(['/tabs/phonecall']);
+  }
+
 }

@@ -1,0 +1,41 @@
+.grid{
+  height: 100%;
+  display: grid;
+  grid-template-rows: 10fr 1fr;
+
+  .video-big{
+    display: flex;
+    justify-content: flex-end;
+
+    .video-small{
+      background-color: lightgray;
+      height: 20vh;
+      width: 15vh;
+      margin: 8vw;
+      border-radius: 10px;
+    }
+  }
+
+  .icons{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .round{
+      background-color: white;
+      padding: .25rem;
+      border-radius: 50%;
+    }
+
+    .small{
+      font-size: 1.2rem;
+    }
+
+    .big{
+      font-size: 2em;
+      padding: .5rem;
+    }
+  }
+}
