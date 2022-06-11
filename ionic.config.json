@@ -1,0 +1,7 @@
+{
+  "name": "calre",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
