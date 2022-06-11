@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-games',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
 })
 export class GamesPage {
 
-  constructor() {}
+  constructor(private route: Router) {}
+
+  navigateToHome(){
+    this.route.navigate(['/tabs/home']);
+  }
+
+  navigateToGame1Start(){
+    this.route.navigate(['/tabs/game1start']);
+  }
 
 }

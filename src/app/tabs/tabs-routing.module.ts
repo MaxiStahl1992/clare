@@ -20,10 +20,6 @@ const routes: Routes = [
         loadChildren: () => import('./calendar/calendar.module').then(m => m.CalendarPageModule)
       },
       {
-        path: 'games',
-        loadChildren: () => import('./games/games.module').then(m => m.GamesPageModule)
-      },
-      {
         path: 'call',
         loadChildren: () => import('./call/call.module').then( m => m.CallPageModule)
       },
@@ -49,7 +45,39 @@ const routes: Routes = [
   {
     path: 'phonecall',
     loadChildren: () => import('./phonecall/phonecall.module').then( m => m.PhonecallPageModule)
-  }
+  },
+  {
+    path: 'games',
+    loadChildren: () => import('./games/games.module').then(m => m.GamesPageModule)
+  },
+  {
+    path: 'game1start',
+    loadChildren: () => import('./game1start/game1start.module').then( m => m.Game1startPageModule)
+  },
+  {
+    path: 'game1plane',
+    loadChildren: () => import('./game1plane/game1plane.module').then( m => m.Game1planePageModule)
+  },
+  {
+    path: 'game1flower',
+    loadChildren: () => import('./game1flower/game1flower.module').then( m => m.Game1flowerPageModule)
+  },
+  {
+    path: 'game1star',
+    loadChildren: () => import('./game1star/game1star.module').then( m => m.Game1starPageModule)
+  },
+  {
+    path: 'game1cat',
+    loadChildren: () => import('./game1cat/game1cat.module').then( m => m.Game1catPageModule)
+  },
+  {
+    path: 'game1result',
+    loadChildren: () => import('./game1result/game1result.module').then( m => m.Game1resultPageModule)
+  },
+  {
+    path: 'game2overview',
+    loadChildren: () => import('./game2overview/game2overview.module').then( m => m.Game2overviewPageModule)
+  },
 ];
 
 @NgModule({
