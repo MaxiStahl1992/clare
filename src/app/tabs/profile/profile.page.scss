@@ -1,0 +1,62 @@
+h1, h3 , ion-icon{
+  padding: 0;
+  margin: 0;
+}
+
+h3{
+  font-size: 15px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vh;
+}
+
+h1{
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.general-info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin-top: 5vh;
+
+  .profile-pic{
+    padding: 25px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-right: 5vw;
+  }
+}
+
+.information{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 40vh;
+  margin-top: 3vh;
+
+  ion-card{
+    height: 16vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
+.update{
+  width: 80vw;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

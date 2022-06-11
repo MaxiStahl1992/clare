@@ -29,11 +29,15 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tabs/feedback',
+        redirectTo: '/tabs/home',
         pathMatch: 'full'
-      }
+      },
+      {
+        path: 'profile',
+        loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
+      },
     ]
-  },
+  }
 ];
 
 @NgModule({
