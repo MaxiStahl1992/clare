@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-calendar',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
 })
 export class CalendarPage {
 
-  constructor() {}
+  constructor(private route: Router) {}
+
+  navigateToDoctorProfile(){
+    this.route.navigate(['/tabs/doctorprofile']);
+  }
+
+  navigateToAppointment(){
+    this.route.navigate(['/tabs/appointment']);
+  }
 
 }

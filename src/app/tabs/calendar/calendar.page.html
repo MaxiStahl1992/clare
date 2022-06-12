@@ -1,9 +1,36 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Calendar
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content>
+
+  <h1>Your Therapist recommendations:</h1>
+
+  <div class="container">
+    <ion-card class="card-main" (click)="navigateToDoctorProfile()">
+      <img src="./assets/images/img_1.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Dr. Marty Smarty Pants</h4>
+        <p>Speech Therapist</p>
+        <span>&starf; &starf; &starf; &starf;</span>
+      </div>
+    </ion-card>
+    <div class="row">
+      <button class="blue" (click)="navigateToAppointment()">View Calendar</button>
+      <button class="green" (click)="navigateToDoctorProfile()">More Information</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <ion-card class="card-main">
+      <img src="./assets/images/img_1.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Dr. Marty Smarty Pants</h4>
+        <p>Speech Therapist</p>
+        <span>&starf; &starf; &starf; &starf;</span>
+      </div>
+    </ion-card>
+    <div class="row">
+      <button class="blue">View Calendar</button>
+      <button class="green">More Information</button>
+    </div>
+  </div>
+</ion-content>
 
 

@@ -1,4 +1,4 @@
-h1, h3{
+h1, h4, span, p, h3{
   padding: 0;
   margin: 0;
 }
@@ -21,22 +21,29 @@ h1{
 }
 
 .general-info{
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 80vw;
+  max-width: 400px;
   margin-top: 5vh;
 
   .profile-pic{
     flex: .75;
-    height: 80px;
+    height: 90px;
     margin-right: 10px;
     border-radius: 50%;
   }
 
-  .text{
-    flex: 1;
+  h4{
+    font-size: 16px;
+  }
+
+  span{
+    justify-self: flex-end;
+    color: #FDFF85;
   }
 }
 
@@ -53,12 +60,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F9C2CF;
+    background-color: #587CA3;
+    color: white;
   }
-}
-
-button{
-  background-color: #F9C2CF;
-  padding: 8px 15px;
-  border-radius: 5px;
 }

@@ -1,0 +1,60 @@
+img, h4, p, span{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin-left: 1rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.card-main {
+  display: grid;
+  grid-template-columns: 1.5fr 5fr;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #587CA3;
+  padding: 15px;
+  color: white;
+
+  .profile-pic{
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  h4{
+    font-size: 16px;
+  }
+
+  span{
+    color: #FDFF85;
+  }
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+
+  button{
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 40vw;
+    max-width: 300px;
+  }
+
+  .blue{
+    background-color: #587CA380 ;
+  }
+  .green{
+    background-color: #51C0A6;
+  }
+}

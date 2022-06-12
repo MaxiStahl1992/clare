@@ -31,6 +31,14 @@ const routes: Routes = [
       {
         path: 'profile',
         loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
+      },
+      {
+        path: 'doctorprofile',
+        loadChildren: () => import('./doctorprofile/doctorprofile.module').then( m => m.DoctorprofilePageModule)
+      },
+      {
+        path: 'bookingconfirmation',
+        loadChildren: () => import('./bookingconfirmation/bookingconfirmation.module').then( m => m.BookingconfirmationPageModule)
       }
     ]
   },
@@ -78,6 +86,10 @@ const routes: Routes = [
     path: 'game2overview',
     loadChildren: () => import('./game2overview/game2overview.module').then( m => m.Game2overviewPageModule)
   },
+  {
+    path: 'appointment',
+    loadChildren: () => import('./appointment/appointment.module').then( m => m.AppointmentPageModule)
+  }
 ];
 
 @NgModule({

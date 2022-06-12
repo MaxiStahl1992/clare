@@ -1,0 +1,52 @@
+<ion-content>
+
+  <div class="container">
+    <h1>Booking Confirmation</h1>
+
+    <ion-card class="card-main">
+      <img src="./assets/images/img_1.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Dr. Marty Smarty Pants</h4>
+        <p>Speech Therapist</p>
+        <span>&starf; &starf; &starf; &starf;</span>
+      </div>
+    </ion-card>
+
+    <div class="confirmation">
+      <h3>Appointment Confirmed!</h3>
+      <ion-card class="card-confirmation">
+        <div class="row">
+          <ion-icon name="calendar-number-outline"></ion-icon>
+          <p>June 13 2022</p>
+        </div>
+        <div class="row">
+          <ion-icon name="time-outline"></ion-icon>
+          <p>14:30</p>
+        </div>
+        <div class="row right">
+          <button (click)="navigateToAppointment()">Change date</button>
+        </div>
+      </ion-card>
+    </div>
+
+    <div class="previous">
+      <h3>Previous Appointments</h3>
+      <ion-card class="card-past">
+        <img src="./assets/images/img_1.png" alt="" class="profile-pic">
+        <div class="text">
+          <h4>Dr. Marty Smarty Pants</h4>
+          <p>Speech Therapist</p>
+          <span>June 12 2022 / 14:30</span>
+        </div>
+      </ion-card>
+      <ion-card class="card-past">
+        <img src="./assets/images/img_1.png" alt="" class="profile-pic">
+        <div class="text">
+          <h4>Dr. Marty Smarty Pants</h4>
+          <p>Speech Therapist</p>
+          <span>June 12 2022 / 14:30</span>
+        </div>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>
