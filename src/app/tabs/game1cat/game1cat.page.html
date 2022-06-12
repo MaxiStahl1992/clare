@@ -1,9 +1,20 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>game1cat</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <div class="container">
+    <div class="header">
+      <ion-icon name="chevron-back-outline" (click)="navigateToGame1Star()"></ion-icon>
+      <p (click)="navigateToHome()">X</p>
+    </div>
 
+    <div class="game">
+      <h1 class="title">Cat</h1>
+      <div class="grid">
+        <ion-icon name="airplane-outline" class="green" (click)="navigateToGame1Result()"></ion-icon>
+        <ion-icon name="star-outline" class="cyan" (click)="navigateToGame1Result()"></ion-icon>
+        <ion-icon name="flower-outline" class="orange" (click)="navigateToGame1Result()"></ion-icon>
+        <ion-icon name="logo-octocat" class="pink" (click)="navigateToGame1Result()"></ion-icon>
+      </div>
+
+    </div>
+
+  </div>
 </ion-content>
