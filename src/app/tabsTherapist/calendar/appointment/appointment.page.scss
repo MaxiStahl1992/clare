@@ -36,112 +36,54 @@ h1{
     font-size: 16px;
   }
 
-  span{
-    color: #FDFF85;
+}
+
+.button{
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  button{
+    width: 40%;
+    height: 2rem;
+    background-color: #51C0A6;
+    border-radius: 5px;
   }
 }
 
 .date{
-  margin-top: 20px;
-
-  p{
-    margin-bottom: 10px;
-  }
-
-  .left{
-    margin-left: .5rem;
-  }
-
-  .day{
-    background-color: #D9D9D9;
-    border-radius: 5px;
-    margin-right: .5rem;
-    margin-left: .5rem;
-    width: 60px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .selected {
-    border: 1px solid black;
-  }
-}
-
-.slots{
-  margin-top: 25px;
-  width: 100%;
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
 
   p{
-    width: 100%;
+    flex: 1;
+    font-size: 12px;
   }
 
-  .left{
-    margin-left: 1rem;
-  }
-
-  .grid{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    margin-top: 10px;
-
-    .time{
-      background-color: #D9D9D9;
-      height: 2rem;
-      text-align: center;
-      border-radius: 5px;
-    }
-
-    .booked{
-      color: #AAAAAA ;
-    }
-
-    .selected{
-      border: 1px solid black;
-    }
+  ion-select{
+    flex: 2;
+    background-color: #587CA3;
+    border-radius: 5px;
   }
 }
 
-.info{
+.notes{
   margin-top: 25px;
-
-  p{
-    margin-left: 1rem;
-  }
+  width: 90%;
+  height: 50vh;
 
   textarea{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 90%;
-    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-color: #E3E3E3;
     border: none;
-    margin-top: 10px;
-    height: 5rem;
-    background-color: #F1F1F1;
-  }
-}
-
-.submit{
-  margin-top: 20px;
-  margin-right: 1rem;
-  display: flex;
-  justify-content: flex-end;
-
-  button{
-    padding: 5px 15px;
     border-radius: 5px;
-    background-color: #51C0A6;
   }
 }
+
 

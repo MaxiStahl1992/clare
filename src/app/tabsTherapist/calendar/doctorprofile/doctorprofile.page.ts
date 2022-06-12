@@ -13,8 +13,8 @@ export class DoctorprofilePage implements OnInit {
   ngOnInit() {
   }
 
-  navigateToChat(){
-    this.route.navigate(['/tabs/chat']);
+  navigateToNotes(){
+    this.route.navigate(['/tabsTherapist/appointment']);
   }
 
 }

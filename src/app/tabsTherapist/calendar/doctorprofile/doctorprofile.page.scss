@@ -12,7 +12,6 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 7vh;
 }
 
 h1{
@@ -41,26 +40,62 @@ h1{
     font-size: 16px;
   }
 
-  span{
-    justify-self: flex-end;
-    color: #FDFF85;
-  }
 }
 
 .information{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  height: 40vh;
-  margin-top: 3vh;
+  margin-top: 25px;
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+
 
   ion-card{
-    height: 16vh;
-    width: 40vw;
+    height: 14vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #587CA3;
-    color: white;
+    background-color: #FFB4C5;
+    color: black;
+
+    ion-icon{
+      font-size: 23px;
+    }
   }
+}
+
+.medication{
+  margin-top: 25px;
+  width: 90%;
+
+  .box{
+    margin-top: 10px;
+  }
+
+  ion-select{
+    width: 100%;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+  }
+
+  textarea{
+    width: 100%;
+    background-color: #E8E8E8;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .middle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button{
+      width: 80%;
+      height: 2rem;
+      border-radius: 5px;
+      background-color: #FFB4C5;
+    }
+  }
+
 }

@@ -11,7 +11,7 @@ export class CalendarPage {
   constructor(private route: Router) {}
 
   navigateToDoctorProfile(){
-    this.route.navigate(['/tabs/doctorprofile']);
+    this.route.navigate(['/tabsTherapist/doctorprofile']);
   }
 
   navigateToAppointment(){
