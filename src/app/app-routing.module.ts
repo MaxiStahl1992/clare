@@ -11,6 +11,10 @@ const routes: Routes = [
     canLoad: [AuthGuard]
   },
   {
+    path: 'tabsTherapist',
+    loadChildren: () => import('./tabsTherapist/tabs.module').then(m => m.TabsPageModule),
+  },
+  {
     path: 'intro',
     loadChildren: () => import('./pages/intro/intro.module').then( m => m.IntroPageModule),
   },

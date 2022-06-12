@@ -12,7 +12,7 @@ import { Storage } from '@capacitor/storage';
 export class IntroPage implements OnInit {
   @ViewChild(IonSlides)slides: IonSlides;
 
-  constructor( private router: Router) { }
+  constructor( private router: Router ){ }
 
   ngOnInit() {
   }
@@ -22,8 +22,8 @@ export class IntroPage implements OnInit {
     await this.router.navigateByUrl('/patient');
   }
 
-  async clickedTherapist(){
-    await Storage.set({key: INTRO_KEY, value: 'true'});
-    await this.router.navigateByUrl('/therapist');
+  clickedTherapist(){
+    Storage.set({key: INTRO_KEY, value: 'true'});
+    this.router.navigateByUrl('/therapist');
   }
 }
