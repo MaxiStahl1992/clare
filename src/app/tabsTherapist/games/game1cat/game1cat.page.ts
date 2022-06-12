@@ -13,16 +13,8 @@ export class Game1catPage implements OnInit {
   ngOnInit() {
   }
 
-  navigateToHome(){
-    this.route.navigate(['/tabs/home']);
-  }
-
-  navigateToGame1Star(){
-    this.route.navigate(['/tabs/game1star']);
-  }
-
-  navigateToGame1Result(){
-    this.route.navigate(['/tabs/game1result']);
+  navigateToPatientMetrics(){
+    this.route.navigate(['/tabsTherapist/game1start']);
   }
 
 }

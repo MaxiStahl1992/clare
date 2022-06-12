@@ -1,13 +1,34 @@
 <ion-content>
+  <h1>Your Patients:</h1>
+
   <div class="container">
-    <div class="header">
-      <ion-icon name="chevron-back-outline" (click)="navigateToHome()"></ion-icon>
-      <p (click)="navigateToHome()">X</p>
-    </div>
-    <div class="text">
-      <h1>Game Center</h1>
-      <button (click)="navigateToGame1Start()">Game One</button>
-    </div>
+    <ion-card class="card-main" (click)="navigateToPatientMetrics()">
+      <img src="./assets/images/img.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Jane Doe</h4>
+        <p>Patient</p>
+      </div>
+    </ion-card>
+  </div>
+
+  <div class="container">
+    <ion-card class="card-main">
+      <img src="./assets/images/img.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Jane Doe</h4>
+        <p>Patient</p>
+      </div>
+    </ion-card>
+  </div>
+
+  <div class="container">
+    <ion-card class="card-main">
+      <img src="./assets/images/img.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Jane Doe</h4>
+        <p>Patient</p>
+      </div>
+    </ion-card>
   </div>
 </ion-content>
 

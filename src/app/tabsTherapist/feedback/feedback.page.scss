@@ -1,12 +1,10 @@
-h1, h4, span, p, h3{
-  padding: 0;
+img, h4, p, span{
   margin: 0;
+  padding: 0;
 }
 
-h3{
-  font-size: 15px;
-  text-align: center;
-  margin: 5px;
+h1{
+  margin-left: 1rem;
 }
 
 .container{
@@ -14,28 +12,20 @@ h3{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 7vh;
 }
 
-h1{
-  font-size: 26px;
-  font-weight: 400;
-}
-
-.general-info{
+.card-main {
   display: grid;
-  grid-template-columns: 2fr 3fr;
-  flex-direction: row;
+  grid-template-columns: 1.5fr 5fr;
+  grid-gap: 10px;
   align-items: center;
   justify-content: center;
-  width: 80vw;
-  max-width: 400px;
-  margin-top: 5vh;
+  background-color: #FFB4C5;
+  padding: 15px;
+  color: white;
 
   .profile-pic{
-    flex: .75;
-    height: 90px;
-    margin-right: 10px;
+    padding: 5px;
     border-radius: 50%;
   }
 
@@ -44,25 +34,26 @@ h1{
   }
 
   span{
-    justify-self: flex-end;
     color: #FDFF85;
   }
 }
 
-.information{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  height: 40vh;
-  margin-top: 3vh;
+.row{
+  display: flex;
+  flex-direction: row;
 
-  ion-card{
-    height: 16vh;
+  button{
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 8px;
     width: 40vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F9C2CF;
-    color: black;
+    max-width: 300px;
+  }
+
+  .blue{
+    background-color: #587CA380 ;
+  }
+  .green{
+    background-color: #51C0A6;
   }
 }

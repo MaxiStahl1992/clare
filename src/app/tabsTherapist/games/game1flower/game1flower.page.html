@@ -1,20 +1,41 @@
 <ion-content>
   <div class="container">
-    <div class="header">
-      <ion-icon name="chevron-back-outline" (click)="navigateToGame1Plane()"></ion-icon>
-      <p (click)="navigateToHome()">X</p>
-    </div>
-
-    <div class="game">
-      <h1 class="title">Flower</h1>
-      <div class="grid">
-        <ion-icon name="airplane-outline" class="green" (click)="navigateToGame1Star()"></ion-icon>
-        <ion-icon name="star-outline" class="cyan" (click)="navigateToGame1Star()"></ion-icon>
-        <ion-icon name="flower-outline" class="orange" (click)="navigateToGame1Star()"></ion-icon>
-        <ion-icon name="logo-octocat" class="pink" (click)="navigateToGame1Star()"></ion-icon>
+    <ion-card class="card-main">
+      <ion-icon name="chevron-back-outline" (click)="navigateToPatientMetrics()"></ion-icon>
+      <img src="./assets/images/img.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Jane Doe</h4>
+        <p>Patient information</p>
       </div>
+    </ion-card>
 
+    <div class="achievement">
+      <p>Goal/Skill Achieved during Session</p>
+      <textarea></textarea>
     </div>
 
+    <div class="progress">
+      <p>Progress</p>
+      <div class="progressbar">
+        <p>1</p>
+        <p>2</p>
+        <p class="active">3</p>
+        <p>4</p>
+        <p>5</p>
+      </div>
+    </div>
+
+    <div class="date">
+      <p>Date of Session</p>
+      <ion-select>
+        <ion-select-option value="brown">01.08.22 14:00</ion-select-option>
+        <ion-select-option value="blonde">01.08.22 15:00</ion-select-option>
+        <ion-select-option value="black">01.08.22 16:00</ion-select-option>
+        <ion-select-option value="red">01.08.22 17:00</ion-select-option>
+      </ion-select>
+    </div>
+
+    <button>Submit</button>
   </div>
+
 </ion-content>

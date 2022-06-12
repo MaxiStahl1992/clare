@@ -13,16 +13,7 @@ export class Game1planePage implements OnInit {
   ngOnInit() {
   }
 
-  navigateToHome(){
-    this.route.navigate(['/tabs/home']);
-  }
-
   navigateToGame1Start(){
-    this.route.navigate(['/tabs/game1start']);
+    this.route.navigate(['/tabsTherapist/game1start']);
   }
-
-  navigateToGame1Flower(){
-    this.route.navigate(['/tabs/game1flower']);
-  }
-
 }

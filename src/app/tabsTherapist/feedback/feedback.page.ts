@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import {AuthenticationService} from '../../services/authentication.service';
 
 @Component({
   selector: 'app-feedback',
@@ -9,10 +8,10 @@ import {AuthenticationService} from '../../services/authentication.service';
 })
 export class FeedbackPage{
 
-  constructor(private authService: AuthenticationService, private router: Router) {}
+  constructor(private route: Router) {}
 
-  async logout() {
-    await this.authService.logout();
-    await this.router.navigateByUrl('/', {replaceUrl: true});
+  navigateToDoctorProfile(){
+    this.route.navigate(['/tabsTherapist/doctorprofile']);
   }
+
 }

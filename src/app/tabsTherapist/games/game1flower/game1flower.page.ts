@@ -13,16 +13,7 @@ export class Game1flowerPage implements OnInit {
   ngOnInit() {
   }
 
-  navigateToHome(){
-    this.route.navigate(['/tabs/home']);
+  navigateToPatientMetrics(){
+    this.route.navigate(['/tabsTherapist/game1start']);
   }
-
-  navigateToGame1Plane(){
-    this.route.navigate(['/tabs/game1plane']);
-  }
-
-  navigateToGame1Star(){
-    this.route.navigate(['/tabs/game1star']);
-  }
-
 }

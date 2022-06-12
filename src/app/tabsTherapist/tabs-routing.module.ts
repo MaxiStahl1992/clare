@@ -34,11 +34,43 @@ const routes: Routes = [
       },
       {
         path: 'doctorprofile',
-        loadChildren: () => import('./calendar/doctorprofile/doctorprofile.module').then(m => m.DoctorprofilePageModule)
+        loadChildren: () => import('./feedback/doctorprofile/doctorprofile.module').then(m => m.DoctorprofilePageModule)
       },
       {
         path: 'bookingconfirmation',
         loadChildren: () => import('./calendar/bookingconfirmation/bookingconfirmation.module').then(m => m.BookingconfirmationPageModule)
+      },
+      {
+        path: 'games',
+        loadChildren: () => import('./games/games.module').then(m => m.GamesPageModule)
+      },
+      {
+        path: 'game1start',
+        loadChildren: () => import('./games/game1start/game1start.module').then(m => m.Game1startPageModule)
+      },
+      {
+        path: 'game1plane',
+        loadChildren: () => import('./games/game1plane/game1plane.module').then(m => m.Game1planePageModule)
+      },
+      {
+        path: 'game1flower',
+        loadChildren: () => import('./games/game1flower/game1flower.module').then(m => m.Game1flowerPageModule)
+      },
+      {
+        path: 'game1star',
+        loadChildren: () => import('./games/game1star/game1star.module').then(m => m.Game1starPageModule)
+      },
+      {
+        path: 'game1cat',
+        loadChildren: () => import('./games/game1cat/game1cat.module').then(m => m.Game1catPageModule)
+      },
+      {
+        path: 'game1result',
+        loadChildren: () => import('./games/game1result/game1result.module').then(m => m.Game1resultPageModule)
+      },
+      {
+        path: 'game2overview',
+        loadChildren: () => import('./games/game2overview/game2overview.module').then(m => m.Game2overviewPageModule)
       }
     ]
   },
@@ -55,40 +87,8 @@ const routes: Routes = [
     loadChildren: () => import('./call/phonecall/phonecall.module').then(m => m.PhonecallPageModule)
   },
   {
-    path: 'games',
-    loadChildren: () => import('./games/games.module').then(m => m.GamesPageModule)
-  },
-  {
-    path: 'game1start',
-    loadChildren: () => import('./games/game1start/game1start.module').then(m => m.Game1startPageModule)
-  },
-  {
-    path: 'game1plane',
-    loadChildren: () => import('./games/game1plane/game1plane.module').then(m => m.Game1planePageModule)
-  },
-  {
-    path: 'game1flower',
-    loadChildren: () => import('./games/game1flower/game1flower.module').then(m => m.Game1flowerPageModule)
-  },
-  {
-    path: 'game1star',
-    loadChildren: () => import('./games/game1star/game1star.module').then(m => m.Game1starPageModule)
-  },
-  {
-    path: 'game1cat',
-    loadChildren: () => import('./games/game1cat/game1cat.module').then(m => m.Game1catPageModule)
-  },
-  {
-    path: 'game1result',
-    loadChildren: () => import('./games/game1result/game1result.module').then(m => m.Game1resultPageModule)
-  },
-  {
-    path: 'game2overview',
-    loadChildren: () => import('./games/game2overview/game2overview.module').then(m => m.Game2overviewPageModule)
-  },
-  {
     path: 'appointment',
-    loadChildren: () => import('./calendar/appointment/appointment.module').then(m => m.AppointmentPageModule)
+    loadChildren: () => import('./feedback/notes/appointment/appointment.module').then(m => m.AppointmentPageModule)
   }
 ];
 

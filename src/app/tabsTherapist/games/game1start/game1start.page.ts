@@ -13,15 +13,19 @@ export class Game1startPage implements OnInit {
   ngOnInit() {
   }
 
-  navigateToHome(){
-    this.route.navigate(['/tabs/home']);
+  navigateToGameResults(){
+    this.route.navigate(['/tabsTherapist/game1plane']);
   }
 
-  navigateToGames(){
-    this.route.navigate(['/tabs/games']);
+  navigateToPatientRecords(){
+    this.route.navigate(['/tabsTherapist/game1cat']);
   }
 
-  navigateToGame1Plane(){
-    this.route.navigate(['/tabs/game1plane']);
+  navigateToPatientData(){
+    this.route.navigate(['/tabsTherapist/game1flower']);
+  }
+
+  navigateToPatients(){
+    this.route.navigate(['/tabsTherapist/games']);
   }
 }

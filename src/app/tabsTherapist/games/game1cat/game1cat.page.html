@@ -1,20 +1,58 @@
 <ion-content>
   <div class="container">
-    <div class="header">
-      <ion-icon name="chevron-back-outline" (click)="navigateToGame1Star()"></ion-icon>
-      <p (click)="navigateToHome()">X</p>
-    </div>
+    <ion-card class="card-main">
+      <ion-icon name="chevron-back-outline" (click)="navigateToPatientMetrics()"></ion-icon>
+      <img src="./assets/images/img.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Jane Doe</h4>
+        <p>Patient information</p>
+      </div>
+    </ion-card>
 
-    <div class="game">
-      <h1 class="title">Cat</h1>
-      <div class="grid">
-        <ion-icon name="airplane-outline" class="green" (click)="navigateToGame1Result()"></ion-icon>
-        <ion-icon name="star-outline" class="cyan" (click)="navigateToGame1Result()"></ion-icon>
-        <ion-icon name="flower-outline" class="orange" (click)="navigateToGame1Result()"></ion-icon>
-        <ion-icon name="logo-octocat" class="pink" (click)="navigateToGame1Result()"></ion-icon>
+    <div class="grid">
+      <div class="box">
+        <p>10 June 2022</p>
+        <div class="dots">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+        </div>
+      </div>
+      <div class="box">
+        <p>9 June 2022</p>
+        <div class="dots">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+        </div>
+      </div>
+      <div class="box">
+        <p>8 June 2022</p>
+        <div class="dots">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+        </div>
+      </div>
+      <div class="box">
+        <p>7 June 2022</p>
+        <div class="dots">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+        </div>
+      </div>
+      <div class="box">
+        <p>6 June 2022</p>
+        <div class="dots">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+          <img src="./assets/images/dot.png">
+        </div>
       </div>
 
     </div>
-
   </div>
 </ion-content>

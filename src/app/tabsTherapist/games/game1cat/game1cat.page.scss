@@ -1,69 +1,74 @@
-h1, p , ion-icon{
+h1, p , ion-icon, h4{
   padding: 0;
   margin: 0;
 }
 
-.container{
-  background-color: #726653;
+.container {
   height: 100%;
+  width: 100vw;
+  background-color: #FFB4C5;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 40px;
-  margin-top: 10px;
-  border-bottom: 3px solid black;
-  border-radius: 2px;
-  width: 90%;
 
-  ion-icon, p{
-    font-size: 26px;
-  }
-}
+  .card-main {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    align-items: center;
 
-.game{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90%;
-  width: 90%;
+    .profile-pic {
+      width: 30%;
+      border-radius: 50%;
+    }
 
-  h1{
-    font-family: "Amatic Sc", serif;
-    font-size: xxx-large;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 2rem;
+    .text {
+      margin-left: 25px;
+    }
+
+    ion-icon {
+      width: 15%;
+      font-size: 25px;
+    }
   }
 
   .grid{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    width: 90%;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+    margin-top: 25px;
+    color: white;
 
-    ion-icon{
-      font-size: 8rem;
+    .box{
+      background-color: #587CA3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 6rem;
+      width: 6rem;
+      text-align: center;
+      border-radius: 5px;
+      justify-self: center;
+
+      .dots{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+
+        img{
+          height: 10px;
+          width: 10px;
+          margin: 2px;
+        }
+      }
     }
 
-    .green{
-      background-color: green;
-    }
-    .cyan{
-      background-color: cyan;
-    }
-    .orange{
-      background-color: orange;
-    }
-    .pink{
-      background-color: pink;
-    }
   }
-
 }

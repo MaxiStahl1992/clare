@@ -1,25 +1,23 @@
 <ion-content>
-  <div class="container">
-    <div class="header">
-      <ion-icon name="chevron-back-outline" (click)="navigateToGames()"></ion-icon>
-      <p (click)="navigateToHome()">X</p>
-    </div>
-
-    <div (click)="navigateToGame1Plane()" class="intro">
-      <div class="row">
-        <img src="../../../../assets/images/dot.png" alt="">
-        <img src="../../../../assets/images/dot.png" alt="">
-      </div>
-      <div class="text">
-        <p>
-          This is a matching Game. Match the words to the pictures.
-        </p>
-      </div>
-      <div class="row bottom">
-        <img src="../../../../assets/images/dot.png" alt="">
-        <img src="../../../../assets/images/dot.png" alt="">
-      </div>
-    </div>
-
+  <div class="title">
+    <ion-icon name="chevron-back-outline" (click)="navigateToPatients()"></ion-icon>
+    <h1>Your Patients Metrics</h1>
   </div>
+
+  <div class="container">
+    <ion-card class="card-main">
+      <img src="./assets/images/img.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Jane Doe</h4>
+        <p>Patient</p>
+      </div>
+    </ion-card>
+
+    <div class="buttons">
+      <button class="blue" (click)="navigateToPatientData()">View Patient Records</button>
+      <button class="green" (click)="navigateToGameResults()">Game Results</button>
+      <button class="red" (click)="navigateToPatientRecords()">Data Collection</button>
+    </div>
+  </div>
+
 </ion-content>

@@ -1,4 +1,4 @@
-img, h4, p, span{
+img, h4, p, span, h1{
   margin: 0;
   padding: 0;
 }
@@ -10,10 +10,17 @@ img, h4, p, span{
   align-items: center;
 }
 
-h1{
-  font-size: 20px;
-  align-self: flex-start;
-  margin-left: 1rem;
+.title{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+
+  h1{
+    font-size: 20px;
+    margin-left: 1rem;
+  }
 }
 
 .card-main {
@@ -22,7 +29,7 @@ h1{
   grid-gap: 10px;
   align-items: center;
   justify-content: center;
-  background-color: #587CA3;
+  background-color: #FFB4C5;
   padding: 15px;
   color: white;
   margin-top: 25px;

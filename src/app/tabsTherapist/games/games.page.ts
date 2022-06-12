@@ -14,8 +14,8 @@ export class GamesPage {
     this.route.navigate(['/tabs/home']);
   }
 
-  navigateToGame1Start(){
-    this.route.navigate(['/tabs/game1start']);
+  navigateToPatientMetrics(){
+    this.route.navigate(['/tabsTherapist/game1start']);
   }
 
 }

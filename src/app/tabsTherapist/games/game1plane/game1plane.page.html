@@ -1,20 +1,30 @@
 <ion-content>
   <div class="container">
-    <div class="header">
+    <ion-card class="card-main">
       <ion-icon name="chevron-back-outline" (click)="navigateToGame1Start()"></ion-icon>
-      <p (click)="navigateToHome()">X</p>
-    </div>
-
-    <div class="game">
-      <h1 class="title">Plane</h1>
-      <div class="grid">
-        <ion-icon name="airplane-outline" class="green" (click)="navigateToGame1Flower()"></ion-icon>
-        <ion-icon name="star-outline" class="cyan" (click)="navigateToGame1Flower()"></ion-icon>
-        <ion-icon name="flower-outline" class="orange" (click)="navigateToGame1Flower()"></ion-icon>
-        <ion-icon name="logo-octocat" class="pink" (click)="navigateToGame1Flower()"></ion-icon>
+      <img src="./assets/images/img.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Jane Doe</h4>
+        <p>Patient information</p>
       </div>
+    </ion-card>
 
+    <div class="gameList">
+      <div class="game">
+        <h4>Game One Results</h4>
+        <div class="text">
+          <p>Matching Game</p>
+          <p>2/4</p>
+        </div>
+      </div>
+      <div class="game">
+        <h4>Game Two Results</h4>
+        <div class="text">
+          <p>Other Game</p>
+          <p>1/4</p>
+        </div>
+      </div>
     </div>
-
   </div>
+
 </ion-content>

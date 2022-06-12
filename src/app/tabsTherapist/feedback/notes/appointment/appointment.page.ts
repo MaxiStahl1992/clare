@@ -18,8 +18,8 @@ export class AppointmentPage implements OnInit {
     this.notesActive = !this.notesActive;
   }
 
-  navigateToBookingconfirmation(){
-    this.route.navigate(['/tabs/bookingconfirmation']);
+  navigateToProfile(){
+    this.route.navigate(['/tabsTherapist/doctorprofile']);
   }
 
 }
