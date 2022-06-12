@@ -20,6 +20,11 @@ p{
 
 ion-card{
   padding: 15px;
+  background-color: #587CA3;
+}
+
+.patient{
+  background-color: #F9C2CF;
 }
 
 .title{
@@ -37,16 +42,13 @@ ion-card{
 
 .card-main {
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-columns: 1.5fr 5fr 1fr;
   align-items: center;
   justify-content: center;
 
   .profile-pic{
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 26px;
-    padding: 10px;
-    background-color: lightgray;
+
+    padding: 5px;
     border-radius: 50%;
   }
 
@@ -57,7 +59,7 @@ ion-card{
     padding: 5px 10px;
     font-size: 10px;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: #51C0A6;
   }
 }
 
@@ -71,7 +73,7 @@ ion-card{
 }
 
 .center{
-  background-color: lightgray;
+  background-color: #51C0A6;
   border-radius: 10px;
   margin-top: 10px;
   padding: 5px;
@@ -87,8 +89,12 @@ ion-card{
   ion-icon{
     padding: 5px;
     border-radius: 50%;
-    background-color: lightgray;
+    background-color: white;
   }
+}
+
+span{
+  color: #FDFF85;
 }
 
 
