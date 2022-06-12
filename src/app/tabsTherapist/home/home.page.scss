@@ -20,11 +20,11 @@ p{
 
 ion-card{
   padding: 15px;
-  background-color: #587CA3;
+  background-color: #FFB4C5;
 }
 
-.patient{
-  background-color: #F9C2CF;
+.therapist{
+  background-color: #587CA3;
 }
 
 .title{
@@ -50,16 +50,6 @@ ion-card{
 
     padding: 5px;
     border-radius: 50%;
-  }
-
-  button{
-    align-self: flex-end;
-    margin-right: 15px;
-    margin-left: 5px;
-    padding: 5px 10px;
-    font-size: 10px;
-    border-radius: 10px;
-    background-color: #51C0A6;
   }
 }
 

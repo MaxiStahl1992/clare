@@ -34,7 +34,7 @@ const routes: Routes = [
   },
   {
     path: 'therapist',
-    loadChildren: () => import('./pages/therapist/therapist.module').then( m => m.TherapistPageModule)
+    loadChildren: () => import('./pages/therapist/therapist.module').then(m => m.TherapistPageModule)
   }
 ];
 @NgModule({

@@ -22,6 +22,7 @@ export class TherapistPage implements OnInit {
   }
 
   async start() {
+
     await Storage.set({key: INTRO_KEY, value: 'true'});
     await this.router.navigateByUrl('/login', { replaceUrl:true });
   }

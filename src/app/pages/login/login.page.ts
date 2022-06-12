@@ -17,7 +17,7 @@ export class LoginPage implements OnInit {
     private authService: AuthenticationService,
     private alertController: AlertController,
     private router: Router,
-    private loadingController: LoadingController
+    private loadingController: LoadingController,
   ) { }
 
   ngOnInit() {
@@ -26,6 +26,7 @@ export class LoginPage implements OnInit {
       password: ['cityslicka', [Validators.required, Validators.minLength(6)]],
     });
   }
+
 
   async login() {
     const loading = await this.loadingController.create();
