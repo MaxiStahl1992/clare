@@ -14,7 +14,7 @@ export class CallPage implements OnInit {
   }
 
   navigateToChat(){
-    this.route.navigate(['/tabs/chat']);
+    this.route.navigate(['/tabsTherapist/chat']);
   }
 
 }

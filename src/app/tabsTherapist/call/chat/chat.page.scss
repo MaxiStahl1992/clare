@@ -9,8 +9,8 @@ h4, p , ion-icon{
 }
 
 .information{
-  background-color: #587CA3;
-  color: white;
+  background-color: #FFB4C5;
+  color: black;
   border-radius:  0 0 10px 10px;
   display: flex;
   flex-direction: row;
@@ -30,7 +30,7 @@ h4, p , ion-icon{
   }
 
   ion-icon{
-    color: white;
+    color: black;
   }
 
   .call{
@@ -62,17 +62,17 @@ h4, p , ion-icon{
 
   .right{
     align-self: flex-end;
-    background-color: #FFB4C5;
+    background-color: #587CA3;
   }
 
   .left{
     align-self: flex-start;
-    background-color: #587CA3;
+    background-color: #FFB4C5;
   }
 }
 
 .input{
-  background-color: #587CA3;
+  background-color: #FFB4C5;
   display: flex;
   align-items: center;
   justify-content: center;

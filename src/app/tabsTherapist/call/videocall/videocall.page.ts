@@ -14,10 +14,10 @@ export class VideocallPage implements OnInit {
   }
 
   navigateToChat(){
-    this.route.navigate(['/tabs/chat']);
+    this.route.navigate(['/tabsTherapist/chat']);
   }
 
   navigateToCall(){
-    this.route.navigate(['/tabs/call']);
+    this.route.navigate(['/tabsTherapist/call']);
   }
 }
