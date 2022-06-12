@@ -17,12 +17,13 @@ export class IntroPage implements OnInit {
   ngOnInit() {
   }
 
-  next(){
-    this.slides.slideNext();
+  async clickedPatient(){
+    await Storage.set({key: INTRO_KEY, value: 'true'});
+    await this.router.navigateByUrl('/patient');
   }
 
-  async start() {
+  async clickedTherapist(){
     await Storage.set({key: INTRO_KEY, value: 'true'});
-    await this.router.navigateByUrl('/login', { replaceUrl:true });
+    await this.router.navigateByUrl('/therapist');
   }
 }

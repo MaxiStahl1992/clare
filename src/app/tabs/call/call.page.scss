@@ -16,17 +16,24 @@ h1{
 
 .card-main {
   display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-columns: 1.5fr 5fr;
+  grid-gap: 10px;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  background-color: #587CA3;
+  padding: 15px;
+  color: white;
 
   .profile-pic{
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 26px;
-    padding: 10px;
-    background-color: lightgray;
+    padding: 5px;
     border-radius: 50%;
+  }
+
+  h4{
+    font-size: 16px;
+  }
+
+  span{
+    color: #FDFF85;
   }
 }

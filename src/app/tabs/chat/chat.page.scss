@@ -9,7 +9,8 @@ h4, p , ion-icon{
 }
 
 .information{
-  background-color: lightgray;
+  background-color: #587CA3;
+  color: white;
   border-radius:  0 0 10px 10px;
   display: flex;
   flex-direction: row;
@@ -28,6 +29,10 @@ h4, p , ion-icon{
     font-style: italic;
   }
 
+  ion-icon{
+    color: white;
+  }
+
   .call{
     display: flex;
 
@@ -36,6 +41,7 @@ h4, p , ion-icon{
       background-color: white;
       border-radius: 50%;
       margin-left: 5px;
+      color: black;
     }
   }
 }
@@ -49,7 +55,6 @@ h4, p , ion-icon{
   p{
     padding: 10px;
     margin: 10px;
-    background-color: lightgray;
     border-radius: 10px;
     max-width: 60vw;
     font-size: 14px;
@@ -57,15 +62,17 @@ h4, p , ion-icon{
 
   .right{
     align-self: flex-end;
+    background-color: #FFB4C5;
   }
 
   .left{
     align-self: flex-start;
+    background-color: #587CA3;
   }
 }
 
 .input{
-  background-color: lightgray;
+  background-color: #587CA3;
   display: flex;
   align-items: center;
   justify-content: center;
