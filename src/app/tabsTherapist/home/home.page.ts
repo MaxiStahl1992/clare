@@ -14,7 +14,7 @@ export class HomePage implements OnInit {
   }
 
   navigateToProfile(){
-    this.route.navigate(['/tabs/profile']);
+    this.route.navigate(['/tabsTherapist/profile']);
   }
 
 }
