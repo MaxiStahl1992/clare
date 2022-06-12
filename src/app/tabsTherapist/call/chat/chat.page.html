@@ -1,0 +1,30 @@
+<ion-content>
+  <div class="container">
+    <div class="information">
+      <ion-icon name="chevron-back-outline" (click)="navigateToCall()"></ion-icon>
+      <div class="text">
+        <h4>Dr. Marty Smarty Pants</h4>
+        <p>Speech Therapist</p>
+      </div>
+      <div class="call">
+        <ion-icon name="videocam-outline" (click)="navigateToVideocall()"></ion-icon>
+        <ion-icon name="call-outline" (click)="navigateToPhoneCall()"></ion-icon>
+      </div>
+    </div>
+
+    <div class="chat">
+      <p class="left">hey are you ready for your appointment</p>
+      <p class="right">yes, we are ready!</p>
+      <p class="right">can't wait</p>
+    </div>
+
+    <div class="input">
+      <div class="box">
+        <ion-item>
+          <ion-textarea placeholder=""></ion-textarea>
+        </ion-item>
+        <ion-icon name="camera-outline"></ion-icon>
+      </div>
+    </div>
+  </div>
+</ion-content>

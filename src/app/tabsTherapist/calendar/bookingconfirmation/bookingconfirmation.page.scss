@@ -1,0 +1,116 @@
+img, h4, p, span, h3{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: 1rem;
+}
+
+.card-main {
+  display: grid;
+  grid-template-columns: 1.5fr 5fr;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #587CA3;
+  padding: 15px;
+  color: white;
+  margin-top: 25px;
+
+  .profile-pic{
+    padding: 5px;
+    border-radius: 50%;
+  }
+
+  h4{
+    font-size: 16px;
+  }
+
+  span{
+    color: #FDFF85;
+  }
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.confirmation{
+  width: 90%;
+  margin-top: 25px;
+
+  .card-confirmation{
+    display: flex;
+    flex-direction: column;
+
+    .row{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 8px;
+      color: black;
+
+      ion-icon{
+        font-size: 26px;
+        margin-right: 10px;
+      }
+    }
+
+    .right{
+      justify-content: flex-end;
+      margin-top: 0;
+    }
+
+    button{
+      padding: 8px 15px;
+      border-radius: 5px;
+      background-color: #F9C2CF;
+    }
+  }
+}
+
+.previous{
+  margin-top: 25px;
+  width: 90%;
+
+  .card-past{
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    align-items: center;
+    justify-content: center;
+    background-color: #93A2B2;
+    padding: 15px;
+    color: white;
+
+    .profile-pic{
+      padding: 5px;
+      border-radius: 50%;
+    }
+
+    h4{
+      font-size: 14px;
+    }
+
+    p{
+      font-size: 12px;
+    }
+
+    span{
+      background-color: #ABABAB;
+      padding: 3px;
+      border-radius: 5px;
+      font-size: 10px;
+    }
+  }
+}

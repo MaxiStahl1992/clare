@@ -1,0 +1,62 @@
+<ion-content>
+  <div class="container">
+    <h1>Book Your Appointment</h1>
+
+    <ion-card class="card-main">
+      <img src="../../../../assets/images/img_1.png" alt="" class="profile-pic">
+      <div class="text">
+        <h4>Dr. Marty Smarty Pants</h4>
+        <p>Speech Therapist</p>
+        <span>&starf; &starf; &starf; &starf;</span>
+      </div>
+    </ion-card>
+
+    <div class="date">
+      <p class="left">Choose a date</p>
+      <ion-slides>
+        <ion-slide>
+          <div class="day">
+            <p>June</p>
+            <h4>10</h4>
+          </div>
+          <div class="day">
+            <p>June</p>
+            <h4>11</h4>
+          </div>
+          <div class="day">
+            <p>June</p>
+            <h4>12</h4>
+          </div>
+          <div class="day selected">
+            <p>June</p>
+            <h4>13</h4>
+          </div>
+        </ion-slide>
+
+      </ion-slides>
+    </div>
+
+    <div class="slots">
+      <p class="left">Available Time Slots</p>
+      <div class="grid">
+        <div class="time"> 12:30 </div>
+        <div class="time"> 13.00 </div>
+        <div class="time booked"> 13.30 </div>
+        <div class="time"> 14.00 </div>
+        <div class="time selected"> 14.30 </div>
+        <div class="time"> 15.00 </div>
+        <div class="time booked"> 15.30 </div>
+        <div class="time"> 16.00 </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <p>You can provide additional information, such as Syptoms or Personal details:</p>
+      <textarea></textarea>
+    </div>
+
+    <div class="submit">
+      <button (click)="navigateToBookingconfirmation()">Submit</button>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,66 @@
+<ion-content>
+  <ion-slides>
+    <!-- Slide 5-->
+    <ion-slide class="four">
+      <h4>Sign Up</h4>
+      <div class="input">
+        <ion-textarea placeholder="Enter your Email"></ion-textarea>
+        <ion-textarea placeholder="Enter your password"></ion-textarea>
+        <ion-textarea placeholder="Enter a username"></ion-textarea>
+      </div>
+      <button (click)="next()">Sign Up</button>
+    </ion-slide>
+
+    <!-- Slide 6-->
+    <ion-slide class="four">
+      <h4>Are you...</h4>
+      <button (click)="next()">Male</button>
+      <button (click)="next()">Female</button>
+      <button (click)="next()">Prefer not to say</button>
+    </ion-slide>
+
+    <!-- Slide 7-->
+    <ion-slide class="five">
+      <h4>Medical History Form</h4>
+      <div class="row">
+        <div class="column short text">
+          <p>First Name</p>
+          <textarea></textarea>
+        </div>
+        <div class="column short text">
+          <p>Last Name</p>
+          <textarea></textarea>
+        </div>
+      </div>
+      <div class="column text">
+        <p>Patients Birthday</p>
+        <textarea></textarea>
+      </div>
+      <div class="column">
+        <p>Please list medications (if any)</p>
+        <ion-select></ion-select>
+      </div>
+      <div class="column">
+        <p>Please list dietary restrictions</p>
+        <ion-select></ion-select>
+      </div>
+      <div class="column">
+        <p>If availbale please upload your medical files</p>
+        <div class="box"></div>
+      </div>
+      <div class="column">
+        <p>If available please upload your CATS evaluation</p>
+        <div class="box"></div>
+      </div>
+      <div class="column">
+        <p>If you haven't completed the CATS evaluation please click here</p>
+        <button>CATS TEST</button>
+      </div>
+      <div class="column">
+        <p>Your information will only be shared with medical professionals</p>
+        <button class="round" (click)="start()">Submit</button>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>

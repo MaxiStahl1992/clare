@@ -1,0 +1,51 @@
+<ion-content>
+  <ion-slides>
+    <!-- Slide 5-->
+    <ion-slide class="four">
+      <h4>Sign Up</h4>
+      <div class="input">
+        <ion-textarea placeholder="Enter your Email"></ion-textarea>
+        <ion-textarea placeholder="Enter your password"></ion-textarea>
+        <ion-textarea placeholder="Enter a username"></ion-textarea>
+      </div>
+      <button (click)="next()">Sign Up</button>
+    </ion-slide>
+
+    <!-- Slide 7-->
+    <ion-slide class="five">
+      <h4>Medical History Form</h4>
+      <div class="row">
+        <div class="column short text">
+          <p>First Name</p>
+          <textarea></textarea>
+        </div>
+        <div class="column short text">
+          <p>Last Name</p>
+          <textarea></textarea>
+        </div>
+      </div>
+      <div class="column">
+        <p>Please upload previous work experience:</p>
+        <div class="box">
+          <ion-icon name="cloud-upload-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="column">
+        <p>Please upload your Certifications/Diplomas:</p>
+        <div class="box">
+          <ion-icon name="cloud-upload-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="column">
+        <p>Please upload your profile picture</p>
+        <div class="box">
+          <ion-icon name="cloud-upload-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="column">
+        <button class="round" (click)="start()">Submit</button>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>
